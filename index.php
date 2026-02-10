@@ -88,7 +88,7 @@ $tgl_hari_ini = date('Y-m-d');
             z-index: 0;
         }
 
-        /* NEW: Compact Header card */
+        /* NEW: Compact Header Card */
         .header-compact {
             background: white;
             border-radius: var(--radius-lg);

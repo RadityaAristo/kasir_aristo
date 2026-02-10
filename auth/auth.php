@@ -23,6 +23,6 @@ if($cek > 0) {
         header("location:../petugas/dashboard/index.php");
     }
 } else {
-    header("location:login.php?pesan=gagall");
+    header("location:login.php?pesan=gagal");
 }
 ?>

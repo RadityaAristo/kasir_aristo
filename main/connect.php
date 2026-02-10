@@ -1,5 +1,5 @@
 <?php
-// Database Connectionn
+// Database Connection
 $server = "localhost";
 $user = "root";
 $password = "";

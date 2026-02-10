@@ -10,6 +10,6 @@ $query = mysqli_query($connect, "UPDATE produk SET NamaProduk='$nama', Harga='$h
 if($query) {
     header("location:index.php?pesan=update");
 } else {
-    header("location:index.php?pesan=gagall");
+    header("location:index.php?pesan=gagal");
 }
 ?>

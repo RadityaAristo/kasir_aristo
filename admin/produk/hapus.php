@@ -9,7 +9,7 @@ if($_SESSION['status'] != "login") header("location:../../auth/login.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hapus Produk - Kasir Aristoo</title>
+    <title>Hapus Produk - Kasir Aristo</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     

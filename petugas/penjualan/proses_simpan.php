@@ -18,7 +18,7 @@ $qtys   = $_POST['Jumlah'];
 mysqli_query($connect, "INSERT INTO pelanggan (NamaPelanggan, Alamat, NomorTelepon) VALUES ('$nama', '$alamat', '$telp')");
 $id_pelanggan = mysqli_insert_id($connect);
 
-// 2. Simpan Penjualan (UserID dihapus agar tidak error jika kolom tidak adaa)
+// 2. Simpan Penjualan (UserID dihapus agar tidak error jika kolom tidak ada)
 mysqli_query($connect, "INSERT INTO penjualan (TanggalPenjualan, TotalHarga, PelangganID) VALUES ('$tgl', 0, '$id_pelanggan')");
 $id_penjualan = mysqli_insert_id($connect);
 

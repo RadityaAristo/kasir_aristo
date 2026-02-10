@@ -9,6 +9,6 @@ $query = mysqli_query($connect, "INSERT INTO produk (NamaProduk, Harga, Stok) VA
 if($query) {
     header("location:index.php?pesan=sukses");
 } else {
-    header("location:index.php?pesan=gagall");
+    header("location:index.php?pesan=gagal");
 }
 ?>
