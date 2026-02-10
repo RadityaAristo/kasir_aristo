@@ -13,7 +13,7 @@ $tgl_hari_ini = date('Y-m-d');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Admin - Kasir Aristo</title>
+    <title>Dashboard Admin - Kasir Aristoo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -345,7 +345,7 @@ $tgl_hari_ini = date('Y-m-d');
         <div class="header-compact">
             <div class="greeting-section">
                 <h1>Dashboard Admin 👋</h1>
-                <p>Kelola sistem kasir dengan mudah dan efisien</p>
+                <p>Kelola sistem kasir dengan aman,mudah dan efisien</p>
             </div>
             <div class="user-info-compact">
                 <img src="https://ui-avatars.com/api/?name=<?= $_SESSION['username']; ?>&background=2563eb&color=fff&size=84&bold=true" 

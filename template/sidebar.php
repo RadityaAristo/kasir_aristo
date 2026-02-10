@@ -146,7 +146,7 @@
             </div>
         </div>
 
-        <!-- Menu Navigation -->
+        <!-- Menu Navigationn -->
         <div class="menu-wrapper">
             <ul class="nav nav-pills flex-column">
                 <li>

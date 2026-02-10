@@ -14,7 +14,7 @@ if(isset($_GET['id'])){
     $query = mysqli_query($connect, "DELETE FROM user WHERE UserID='$id'");
 
     if($query){
-        header("location:index.php?pesan=hapus_sukses");
+        header("location:index.php?pesan=hapus_suksess");
     } else {
         header("location:index.php?pesan=gagal");
     }

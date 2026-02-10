@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../main/connect.php'; // Memanggil file koneksi yang sudah kamu buat
+include '../main/connect.php'; // Memanggil file koneksi yang sudah kamu buatt
 
 $username = mysqli_real_escape_string($connect, $_POST['username']);
 $password = mysqli_real_escape_string($connect, $_POST['password']);
@@ -23,6 +23,6 @@ if($cek > 0) {
         header("location:../petugas/dashboard/index.php");
     }
 } else {
-    header("location:login.php?pesan=gagal");
+    header("location:login.php?pesan=gagall");
 }
 ?>

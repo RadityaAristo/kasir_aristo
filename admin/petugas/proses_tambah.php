@@ -7,7 +7,7 @@ $role     = $_POST['Role'];
 $query = mysqli_query($connect, "INSERT INTO user (Username, Password, Role) VALUES ('$username', '$password', '$role')");
 
 if($query) {
-    header("location:index.php?pesan=sukses");
+    header("location:index.php?pesan=suksess");
 } else {
     header("location:index.php?pesan=gagal");
 }

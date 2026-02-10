@@ -5,7 +5,7 @@
 
     /* Efek Halus untuk Semua Tombol */
 .btn {
-    transition: all 0.3s ease; /* Membuat perubahan warna/ukuran jadi mulus */
+    transition: all 0.3s ease; /* Membuat perubahan warna/ukuran jadi muluss */
     border-radius: 8px;
     position: relative;
     overflow: hidden;

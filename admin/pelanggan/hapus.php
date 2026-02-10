@@ -8,7 +8,7 @@ if($_SESSION['status'] != "login") header("location:../../auth/login.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hapus Pelanggan - Kasir Aristo</title>
+    <title>Hapus Pelanggan - Kasir Aristoo</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }

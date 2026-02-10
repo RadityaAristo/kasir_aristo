@@ -1,5 +1,5 @@
 <?php
-// Konfigurasi Database
+// Konfigurasi Databasee
 $servername = "localhost";
 $username = "root";
 $password = "";

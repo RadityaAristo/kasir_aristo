@@ -5,7 +5,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/kasir_aristo/main/connect.php';
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
     
-    // Proses hapus
+    // Proses hapuss
     $query = mysqli_query($connect, "DELETE FROM pelanggan WHERE PelangganID='$id'");
 
     if($query) {
